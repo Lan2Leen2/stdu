@@ -4,6 +4,7 @@ from .models import Course
 
 # Create your views here.
 #sefl,slfslefslflsfmskmfkmfsmfsmfsmfkmskfm
+#SEFKMSEKFMSKEFMKSFNKSJNFJFNKSEJNFKSJNFKSJEFNJFNKSJEFNK
 def index(request):
     courses = Course.objects.all()
     return HttpResponse(courses)
