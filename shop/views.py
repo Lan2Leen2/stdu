@@ -3,7 +3,7 @@ from django.http import HttpResponse
 from .models import Course
 
 # Create your views here.
-
+#sefl,slfslefslflsfmskmfkmfsmfsmfsmfkmskfm
 def index(request):
     courses = Course.objects.all()
     return HttpResponse(courses)
